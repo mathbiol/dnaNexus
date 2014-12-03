@@ -1,4 +1,4 @@
 dnaNexus
 ========
 
-https://github.com/mathbiol/dnaNexus
+http://mathbiol.github.io/dnaNexus
