@@ -4,6 +4,7 @@ if(!localStorage.getItem('dnaNexusAPIkey')){
 }
 
 var api = new DX.Api(localStorage.getItem('dnaNexusAPIkey'));
-    api.call("user-jonasalmeida", "describe").done(function(userData) {
-        console.log("user-jonasalmeida's full name is " + [userData.first, userData.last].join(" "));
-});
+    api.call("user-jonasalmeida", "describe")
+        .done(function(userData) {
+                console.log("user-jonasalmeida's full name is " + [userData.first, userData.last].join(" "));
+            })
